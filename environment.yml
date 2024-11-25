@@ -7,8 +7,8 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex
-  - _openmp_mutex
+  - _libgcc
+  - _openmp
   - ca-certificates
   - certifi=2020.6.20
   - colorama
@@ -24,14 +24,14 @@ dependencies:
   - libcblas
   - libffi
   - libgcc-ng
-  - libgfortran-ng
+  - libgfortran
   - libgfortran5
   - libgomp
   - liblapack
   - libopenblas
   - libpng
   - libprotobuf
-  - libstdcxx-ng
+  - libstdcxx
   - libtiff
   - lz4-c
   - ncurses
@@ -40,7 +40,7 @@ dependencies:
   - olefile
   - onnx
   - openexr
-  - openexr-python
+  - openexr
   - openssl
   - pip=21.2.2
   - portalocker
